@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 160" role="img" aria-labelledby="title desc">
+<title id="title">Personal Portfolio Wordmark</title>
+<desc id="desc">Logo mark with stylized wordmark text</desc>
+<style>
+:root {
+  --logo-text: #0F172A; /* slate-900 */
+  --logo-accent: #7C3AED; /* violet-600 */
+  --logo-accent-2: #22D3EE; /* cyan-300 */
+}
+text { font-family: "Inter", system-ui, -apple-system, Segoe UI, Roboto, Ubuntu, Cantarell, "Helvetica Neue", Arial, "Noto Sans", "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", sans-serif; }
+</style>
+<defs>
+  <linearGradient id="accentGradient" x1="0" y1="0" x2="1" y2="1">
+    <stop offset="0%" stop-color="var(--logo-accent,#7C3AED)"/>
+    <stop offset="100%" stop-color="var(--logo-accent-2,#22D3EE)"/>
+  </linearGradient>
+</defs>
+
+<!-- Mark -->
+<g transform="translate(80 80)">
+  <g fill="url(#accentGradient)">
+    <rect x="-10" y="-44" width="20" height="88" rx="10"/>
+    <rect x="-10" y="-44" width="20" height="88" rx="10" transform="rotate(60)"/>
+    <rect x="-10" y="-44" width="20" height="88" rx="10" transform="rotate(120)"/>
+  </g>
+  <circle r="56" fill="none" stroke="var(--logo-text,#0F172A)" stroke-width="6" opacity="0.15"/>
+  <circle r="4" fill="var(--logo-text,#0F172A)" opacity="0.6"/>
+ </g>
+
+<!-- Wordmark text -->
+<g transform="translate(160 0)" fill="var(--logo-text,#0F172A)">
+  <text x="0" y="85" font-size="56" font-weight="700" letter-spacing="0.5">Your Name</text>
+  <text x="0" y="122" font-size="20" font-weight="500" opacity="0.65">Portfolio</text>
+</g>
+</svg>
+
