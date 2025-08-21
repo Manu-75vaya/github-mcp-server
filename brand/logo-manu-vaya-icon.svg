@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 512 512" role="img" aria-labelledby="title desc">
+<title id="title">MV Pin — Manu Vaya</title>
+<desc id="desc">Icon-only location pin with MV monogram and gradient fill.</desc>
+
+<defs>
+	<linearGradient id="mvGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+		<stop offset="0%" stop-color="#14b8a6"/>
+		<stop offset="100%" stop-color="#3b82f6"/>
+	</linearGradient>
+	<filter id="softShadow" x="-20%" y="-20%" width="140%" height="140%">
+		<feDropShadow dx="0" dy="10" stdDeviation="12" flood-color="#0b1220" flood-opacity="0.18"/>
+	</filter>
+</defs>
+
+<g transform="translate(56,16) scale(1.0)" filter="url(#softShadow)">
+	<!-- Pin silhouette -->
+	<path d="M200 0 C 89.5 0 0 89.5 0 200 C 0 350 200 512 200 512 C 200 512 400 350 400 200 C 400 89.5 310.5 0 200 0 Z" fill="url(#mvGrad)"/>
+	<!-- MV monogram -->
+	<g stroke="#ffffff" stroke-width="24" stroke-linecap="round" stroke-linejoin="round" fill="none">
+		<path d="M90 340 L90 160"/>
+		<path d="M90 160 L200 340 L310 160"/>
+		<path d="M310 160 L310 340"/>
+	</g>
+</g>
+
+</svg>
+
